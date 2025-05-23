@@ -80,7 +80,7 @@ function App() {
                 onChange={(e) => setTodo(e.target.value)}
               />
               <button
-                className='h-[85%] w-[100px] bg-green-400 rounded-sm font-medium 2xl:text-2xl'
+                className='h-[85%] w-[100px] bg-green-400 rounded-sm font-medium 2xl:text-2xl hover:bg-green-300 cursor-pointer'
                 onClick={addTodo}
               >
                 Save

@@ -15,6 +15,7 @@ const Task = ({todo}) => {
     }
 
     const handleDelete = () =>{
+        alert("Are you sure you want to delete this todo ?")
         deleteTodo(todo.id)
     }
 
