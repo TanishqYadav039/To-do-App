@@ -61,7 +61,7 @@ function App() {
           <div className='w-full h-20 flex justify-between items-center px-4'>
             <h1 className={`text-3xl text-center p-3 font-bold ${theme === 'dark' ? "dark:text-white" : ""}`}>Todo task App</h1>
             <button
-              className={`text-bold p-2 rounded-full w-[40px] cursor-pointer flex justify-center items-center  backdrop-blur-lg ${theme === "dark" ? "dark:text-white bg-white/45" : "bg-black/60"}`}
+              className={`text-bold p-2 rounded-full w-[40px] cursor-pointer flex justify-center items-center  backdrop-blur-lg ${theme === "dark" ? "dark:text-white bg-white/45" : "bg-black/80"}`}
               onClick={handleTheme}
             >
               {theme === "dark" ? "☀️" : "🌙"}
